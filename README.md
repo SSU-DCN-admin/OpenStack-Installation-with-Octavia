@@ -19,7 +19,7 @@ local.conf작성
 ./stack.sh
 ```
 
-eno1 -> no ip address interface
+eno2 -> no ip address interface
 ```
-sudo ovs-vsctl add-port br-ex eno1
+sudo ovs-vsctl add-port br-ex eno2
 ```
